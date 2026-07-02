@@ -41,7 +41,6 @@ public class Item {
         int qty = sc.nextInt();
 
         Item item = new Item(code, name, price);
-
         item.displayDetails();
 
         System.out.println("Total Cost = " +

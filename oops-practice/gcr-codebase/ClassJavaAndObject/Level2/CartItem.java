@@ -48,7 +48,6 @@ public class CartItem {
 
         System.out.print("Enter Quantity: ");
         int qty = sc.nextInt();
-
         CartItem cart =
                 new CartItem(name, price, qty);
 

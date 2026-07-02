@@ -30,7 +30,6 @@ public class Employee {
 
         System.out.print("Enter Salary: ");
         double salary = sc.nextDouble();
-
         Employee emp = new Employee(name, id, salary);
 
         emp.displayDetails();

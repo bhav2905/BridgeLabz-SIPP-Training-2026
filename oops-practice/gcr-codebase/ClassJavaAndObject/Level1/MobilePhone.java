@@ -37,7 +37,6 @@ public class MobilePhone {
 
         MobilePhone phone =
                 new MobilePhone(brand, model, price);
-
         phone.displayDetails();
     }
 }

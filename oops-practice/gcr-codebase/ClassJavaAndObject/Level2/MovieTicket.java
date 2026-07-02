@@ -34,7 +34,6 @@ public class MovieTicket {
 
         System.out.print("Enter Ticket Price: ");
         double price = sc.nextDouble();
-
         MovieTicket ticket =
                 new MovieTicket(movie, seat, price);
 

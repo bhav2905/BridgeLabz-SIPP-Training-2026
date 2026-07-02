@@ -35,7 +35,6 @@ public class PalindromeChecker {
 
         PalindromeChecker checker =
                 new PalindromeChecker(text);
-
         checker.displayResult();
     }
 }
