@@ -1,0 +1,34 @@
+package Generics;
+
+import java.util.ArrayList;
+
+public class Stack<T> {
+
+    private ArrayList<T> stack = new ArrayList<>();
+
+    public void push(T element) {
+        stack.add(element);
+    }
+
+    public T pop() {
+
+        if (stack.isEmpty()) {
+            return null;
+        }
+
+        return stack.remove(stack.size() - 1);
+    }
+
+    public T peek() {
+
+        if (stack.isEmpty()) {
+            return null;
+        }
+
+        return stack.get(stack.size() - 1);
+    }
+
+    public boolean isEmpty() {
+        return stack.isEmpty();
+    }
+}
