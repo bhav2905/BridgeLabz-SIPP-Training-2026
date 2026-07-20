@@ -58,7 +58,6 @@ public class TripletSum {
         int target = sc.nextInt();
 
         List<List<Integer>> ans = findTriplets(arr, target);
-
         System.out.println(ans);
     }
 }

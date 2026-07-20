@@ -39,7 +39,6 @@ public class PairSum {
 
         System.out.print("Enter Target Sum: ");
         int target = sc.nextInt();
-
         int[] ans = findPairSum(arr, target);
 
         if (ans[0] == -1)
